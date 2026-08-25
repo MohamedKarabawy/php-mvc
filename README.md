@@ -60,16 +60,14 @@ DB_PASS=
 Run the migrations:
 
 ```bash
-php Core/migrate.php migrate
+php run migrate
 ```
 
 Serve the app:
 
-```bash
-php -S localhost:8000 -t public
-```
+**Note:** The project is currently designed to run through Apache or Nginx rather than PHP's built-in development server. Place the project directory inside your web server's document root, such as `htdocs` or `www`, and make sure the `public` directory is configured as the web root.
 
-Then open `http://localhost:8000` for the landing page, or `http://localhost:8000/docs` for the full in-app documentation.
+Once the server is running, open your project URL in the browser to access the landing page, then visit `/docs` to explore the full in-app documentation.
 
 <br>
 
