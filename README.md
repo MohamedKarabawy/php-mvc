@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src=".github/banner.svg" alt="PHP MVC — v1.0.0" width="100%">
+<img src=".github/banner.png" alt="PHP MVC — v1.0.0" width="100%">
 
 <br>
 
