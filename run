@@ -1,0 +1,16 @@
+<?php
+require_once __DIR__ . '/Core/Env.php';
+require_once __DIR__ . '/Core/helpers.php';
+
+\Core\Env::load(__DIR__ . '/.env');
+
+$action = $argv[1] ?? null;
+
+if (!in_array($action, ['migrate', 'drop'])) 
+{
+    die("Usage: php run [migrate|drop]\n");
+}
+
+$argv[1] = $action;
+
+require __DIR__ . '/Core/migrate.php';
