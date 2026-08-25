@@ -18,7 +18,7 @@
 <br>
 
 > [!NOTE]
-> This framework is for learning/teaching purposes only, to make the developer be able to know how MVC works and the underlying of MVC frameworks.
+> This framework is designed exclusively for learning and teaching purposes, providing developers with a practical understanding of how the MVC architecture works and the underlying concepts and mechanisms behind modern MVC frameworks.
 
 <br>
 
