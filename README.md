@@ -67,7 +67,7 @@ Serve the app:
 
 **Note:** The project is currently designed to run through Apache or Nginx rather than PHP's built-in development server. Place the project directory inside your web server's document root, such as `htdocs` or `www`, and make sure the `public` directory is configured as the web root.
 
-Once the server is running, open your project URL in the browser to access the landing page, then visit `/mvc/docs` to explore the full in-app documentation.
+Once the server is running, open your project URL in the browser to access the landing page, then visit `/php-mvc/docs` to explore the full in-app documentation.
 
 <br>
 
