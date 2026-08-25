@@ -29,11 +29,8 @@
 
 <span class="tok-kw">class</span> <span class="tok-cls">ContactController</span> <span class="tok-kw">extends</span> Controller
 {
-    <span class="tok-kw">private</span> Request $request;
-
-    <span class="tok-kw">public function</span> __construct(Request $request)
+    <span class="tok-kw">public function</span> __construct(private Request $request)
     {
-        $this-&gt;request = $request;
     }
 
     <span class="tok-kw">public function</span> index()
